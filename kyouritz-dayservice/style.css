@@ -1,0 +1,213 @@
+@charset "utf-8";
+p, h1, h2, h3, h4, ul, ol, dl, dd, body, form {
+  padding: 0;
+  margin: 0;
+}
+a:hover {
+  color: #5AC88F;
+}
+a {
+  color: #1F783D;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+  vertical-align: bottom;
+}
+ul, ol {
+  list-style-type: none;
+}
+
+main {
+  display: block;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  font-size: 0.9em;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+header {
+  width: 154px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: #D5F3D4;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.content {
+  margin-left: 154px;
+  position: relative;
+}
+
+.sidenav {
+  background-color: #FFFFFF;
+  margin-left: auto;
+  width: 314px;
+}
+
+.top {
+  background-image: url(img/mainimage.JPG);
+  background-size: cover;
+  height: 657px;
+}
+.top .text {
+  position: absolute;
+  top: 60px;
+  left: 200px;
+}
+.header-logo {
+  padding: 12px 27px;
+  background-color: #D5F3D4;
+}
+
+dt{
+  float: left;
+  margin-right: 20px;
+  color: #219E6D;
+  font-weight: bold;
+}
+
+dl dd{
+  margin-bottom: 20px;
+
+}
+.title-logo   {
+  margin-right: 6px;
+  margin-bottom: -6px;
+}
+
+dl dd span {
+  display: inline-block;
+  width: 90px;
+  color: #FFFFFF;
+  background-color: #36B785;
+  text-align: center;
+  margin-right: 20px;
+  font-size: 13px;
+}
+.news-inner h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+	
+.news-inner{
+  float: left;
+  width: 640px;
+}
+.news-inner h2 {
+  margin-bottom: 32px;
+}
+.more {
+  text-align: right;
+}
+.calender-wrapper h2 {
+  margin-bottom: 32px;
+}
+
+.inner-1 {
+  padding: 48px;
+  width: 100%;
+  max-width: 1024px;
+}
+
+table{
+  border-collapse: collapse;
+  width: 300px;
+}
+	
+td,th{
+  border:2px solid #DBDBDB;
+  text-align: center;
+  background-color:#ffffff;
+  font-size:15px;
+  padding:5px;
+  font-weight: normal;
+}
+
+th{
+  color: #3E3E3E;
+  background-color: #fff;
+  width: auto;
+}
+th:first-child{
+color: #F44E51;
+}
+.holiday{
+  background-color: #FD6164;
+  color: #fff;
+}
+.month{
+  background-color: #36B785;
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: large;
+}
+.inner-1 .calender-wrapper {
+  float: right;
+}
+.banner img {
+  display: inline-block;
+}
+.banner {
+  padding-top: 40px;
+  text-align: center;
+}
+.banner-experience{
+  margin-right: 48px;
+}
+
+footer {
+  padding: 60px 48px 76px;
+  height: 120px;
+}
+.copyright {
+  float: right;
+  font-size: 11px;
+  color: #3F3F3F;
+}
+.footer_inner  {
+  margin-top: 16px;
+}
+
+footer span {
+  color: #1FA571;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.footer_right {
+  float: right;
+  font-size: 12px;
+  line-height: 2.2;
+	text-align: right;
+}
+.footer_contact {
+  float: left;
+  margin-left: 18px;
+  margin-top: 20px;
+}
+footer ul {
+  float: left;
+  margin-right: 24px;
+}
+footer .last{
+	margin-right: 0;
+}
+.footer_left {
+  float: left;
+}
+.footer_left p {
+  line-height: 1.7;
+}
