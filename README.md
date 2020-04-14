@@ -1,1 +1,1 @@
-# kyoritz-dayservice
+# ディレクトリ構造
